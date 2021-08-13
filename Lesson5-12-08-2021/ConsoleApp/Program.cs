@@ -15,6 +15,13 @@ namespace Lesson5_12_08_2021
             int n = b - a + 1;
             int sum = ((a + b) * n / 2) - a - b;
             Console.WriteLine($"Сумма чисел между {a} и {b} равно: {sum}");
+            for (; a < b; a++)
+            {
+                if (a % 2 != 0)
+                {
+                    Console.WriteLine($"Нечетная значения: {a}");
+                }
+            }
 
             // ДЗ №2
             Console.WriteLine("ДЗ №2");
